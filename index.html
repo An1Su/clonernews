@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClonerNews</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <button onclick="changeContent('stories')">Stories</button>
+        <button onclick="changeContent('jobs')">Jobs</button>
+        <button onclick="changeContent('polls')">Polls</button>
+    </nav> 
+    <div id="updates-container">
+        <h3>Latest Updates</h3>
+        <ul id="updates-list"></ul>
+    </div>   
+    <main>
+        <div id="cards-container"></div>
+        <button id="loadMore">Load More</button>
+    </main>
+    <script src="clonerNews.js"></script>
+</body>
+</html>
